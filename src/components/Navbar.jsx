@@ -18,7 +18,7 @@ function Navbar() {
 
         {/* Toggle Button */}
         <button onClick={() => setOpen(!open)} className="md:hidden">
-          {open ? <IoCloseOutline className="w-6 h-6" /> : <FaBars className="w-5 h-5" />}
+          {open ? <IoCloseOutline className="w-6 h-6" /> : <FaBars className="w-6 h-6" />}
         </button>
 
         {/* Desktop Menu */}
@@ -75,7 +75,7 @@ function Navbar() {
             href="https://github.com/abhijitht2002"
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full px-4 py-2 text-sm hover:bg-gray-100 transition"
+            className="block w-full px-4 py-2 text-sm text-teal-400 hover:bg-gray-100 transition"
             onClick={() => setOpen(false)}
           >
             GitHub
@@ -85,7 +85,7 @@ function Navbar() {
             href="http://www.linkedin.com/in/abhijitht2002"
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full px-4 py-2 text-sm hover:bg-gray-100 transition"
+            className="block w-full px-4 py-2 text-sm text-indigo-400 hover:bg-gray-100 transition"
             onClick={() => setOpen(false)}
           >
             LinkedIn
@@ -95,7 +95,7 @@ function Navbar() {
             href="pdf/Abhijith_T_Entri.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full px-4 py-2 text-sm hover:bg-gray-100 transition"
+            className="block w-full px-4 py-2 text-sm text-teal-400 hover:bg-gray-100 transition"
             onClick={() => setOpen(false)}
           >
             Download
