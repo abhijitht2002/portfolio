@@ -1,6 +1,14 @@
 export const data = [
   {
     id: 0,
+    thumbnail: "thumbnails/blgzthmbnl.JPG",
+    title: "DevBlogs",
+    description: "This project is a simple blog application built with React and powered by Zustand for global state management. The goal is to understand how Zustand can replace heavier state solutions while keeping the code minimal and scalable.",
+    link: "https://blog-page-with-zustand.vercel.app/",
+    repo: "https://github.com/abhijitht2002/blog-page-with-zustand.git"
+  },
+  {
+    id: 2,
     thumbnail: "thumbnails/rwptthmbnl.png",
     title: "Remote Work Productivity Tracker",
     description: "A web application that helps teams manage work by allowing managers to assign tasks, track progress, and monitor time spent by employees. It provides clear visibility of who is working on what, helping teams stay organized, meet deadlines, and work efficiently in a remote environment.",
@@ -8,7 +16,7 @@ export const data = [
     repo: "https://github.com/abhijitht2002/rwpt.git"
   },
   {
-    id: 2,
+    id: 3,
     thumbnail: "thumbnails/rgwtotp.png",
     title: "Email OTP Authentication System with Brevo",
     description: "A simple and secure user registration system built using the MERN stack, integrated with Brevo for OTP verification. Users can sign up using their email, receive a one-time password, and verify their account before completing registration. This project focuses on authentication flow, API handling, and user input validation.",
